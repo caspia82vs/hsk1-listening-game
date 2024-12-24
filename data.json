@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "chinese": "你好",
+        "pinyin": "nǐ hǎo",
+        "translation": "Bonjour",
+        "audio": "./audio/nihao.mp3"
+    },
+    {
+        "id": 2,
+        "chinese": "谢谢",
+        "pinyin": "xiè xie",
+        "translation": "Merci",
+        "audio": "./audio/xiexie.mp3"
+    },
+    {
+        "id": 3,
+        "chinese": "再见",
+        "pinyin": "wǒ",
+        "translation": "je/moi",
+        "audio": "./audio/zaijian.mp3"
+    }
+]

@@ -1,16 +1,20 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="zh-CN">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>听音游戏</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
+    
 <body>
-  Hello world
-  <script src="script.js"></script>
+    <div id="game-container">
+        <img id="question-image" src="" alt="图片" />
+        <button id="play-audio">播放音频</button>
+        <button id="start-speech-recognition">用语音回答</button>
+        <p id="feedback"></p>
+    </div>
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
 </body>
-
 </html>
